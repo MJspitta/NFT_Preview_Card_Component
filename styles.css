@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  color: hsl(0, 0%, 100%);
+  font-family: 'Outfit', sans-serif;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 17rem;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 10px;
+}
+
+.content-container {
+  width: 82.5%;
+  margin: 1.5rem auto;
+}
+
+.img-container {
+  position: relative;
+  width: 100%;
+  max-width: 14rem;
+}
+
+.main-img {
+  width: 14rem;
+  height: 14rem;
+  border-radius: 10px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 98%;
+  width: 100%;
+  border-radius: 10px;
+  opacity: 0;
+  transition: 0.3s ease;
+  background-color: hsl(178, 100%, 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0.7rem 0;
+}
+h1:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+p {
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.card-info {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-info img {
+  margin-right: 0.5rem;
+}
+
+.price-p {
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.days-p {
+  display: flex;
+  align-items: center;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid hsl(215, 32%, 27%);
+}
+
+.card-author {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.avatar-img {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 0.8rem;
+}
+
+.author-name {
+  color: hsl(0, 0%, 100%);
+  font-weight: 400;
+}
+.author-name:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+@media only screen and (max-width: 375px) {
+
+}
